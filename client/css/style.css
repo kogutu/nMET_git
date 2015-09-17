@@ -1,0 +1,14 @@
+div#right1 {
+    border: 1px solid;
+    height: 300px;
+    font-weight: bold;
+    width: 300px;
+    float: right;
+}
+div#left1 {
+    border: 1px solid;
+    height: 300px;
+    font-weight: bold;
+    width: 300px;
+    float: left;
+}

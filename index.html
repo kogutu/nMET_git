@@ -1,0 +1,30 @@
+<head>
+    <title>Test</title>
+
+</head>
+<body>
+<h1>ok</h1>
+{{> dragList}}
+{{items}}
+<hr>
+
+{{> insertBookForm}}
+
+{{books}}
+</body>
+
+<template name="insertBookForm">
+    {{> quickForm collection="Books" id="insertBookForm" type="insert"}}
+</template>
+
+<template name="dragList">
+    <div class='wrapper'>
+        <div id='left1' class='container'>
+            {{#each items}}
+                <div>{{name}}</div>
+            {{/each}}
+        </div>
+        <div id='right1' class='container'>
+        </div>
+    </div>
+</template>
